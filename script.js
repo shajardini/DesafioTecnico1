@@ -9,6 +9,7 @@ function calcularSomatorio() {
 
     const resultado = somaDivisores(numeroInput);
     resultadoElemento.innerHTML = `O somatório dos valores divisíveis por 3 ou 5, inferiores a ${numeroInput}, é:  <strong>${resultado}</strong>.`;
+    document.getElementById('numeroInput').value = ''
 }
 
 function somaDivisores(numero) {
